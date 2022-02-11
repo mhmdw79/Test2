@@ -1,0 +1,142 @@
+.container{
+    background-color: #fff;
+    width: 30%;
+    height: 25rem; 
+    border-radius: 20px;
+}
+.headCard{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.icon{
+    width: 24px;
+}
+
+.containerForm{
+   margin-left: 0.85rem;
+    width: 27rem;
+    height:5.5rem;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+
+.secone{
+ display: flex;
+ justify-content: space-between;
+ padding: 1rem;
+
+}
+
+.inputSecOne{
+    width: 80%;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+.inputSecOne::placeholder{
+   opacity: 0.5;
+}
+
+.inputSecOne:focus , .inputSecOne:hover,.inputSecOne:checked{
+    outline: none;
+}
+.secOne2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secOne2 p{
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+.selectSecOne{
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    text-align: center;
+
+    border: none;
+    background-color: #e9ecef;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-right: 1px;
+    font-size: 1rem;
+    
+}
+
+
+.selectSecOne:hover{
+    background-color: #dee2e6;
+
+}
+
+
+
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3rem;
+    
+}
+
+.arrowButton{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border: none;
+}
+.containerForm2{
+    margin-left: 0.85rem;
+     width: 27rem;
+     height:5.5rem;
+     background-color: #f8f9fa;
+     border-radius: 20px;
+     margin-top: 0.3rem;
+ }
+.disc{
+    margin-left: 0.85rem;
+    margin-top: 1rem;
+}
+ .submitButton{
+     display: flex;
+     justify-content: center;
+     margin-top: 1rem;
+     width: 100%;
+ }
+ .buttonConnect{
+     width: 80%;
+     height: 3rem;
+     background-color: #ffc8dd;
+     border: none;
+     border-radius: 20px;
+     font-size: 1.2rem;
+     color: #ef476f;
+     cursor: pointer;
+ }
+
+ .ModalContainer{
+     display: flex;
+     justify-content: center;
+     margin-top: 0.85rem;
+ }
+
+ .seconeInModal{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1rem;
+   
+   }
+
+  .containerButtonConfirm{
+      display: flex;
+      justify-content: center;
+      margin-top: 3rem;
+  }
+   
