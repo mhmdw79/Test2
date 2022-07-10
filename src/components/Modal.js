@@ -41,7 +41,7 @@ function Moodal({option1,inputOne,option2,setBalance1,setBalance2,Balance1,Balan
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
+        <Box sx={style} width="100%">
         <div className={styles.headCard}>
           <span>Confirm Swap</span>
         <a href='#/' onClick={handleClose}>
